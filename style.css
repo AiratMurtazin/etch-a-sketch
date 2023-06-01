@@ -12,7 +12,16 @@ body {
 }
 
 .container {
-	width: 65%;
+	width: 75%;
 	height: 75%;
 	background-color: brown;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.brick {
+	background-color: blue;
+	border: 1px solid black;
 }
