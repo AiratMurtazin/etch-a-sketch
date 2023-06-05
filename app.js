@@ -25,5 +25,5 @@ populateCells(16);
 
 btn.addEventListener('click', () => {
 	let answer = prompt('Choose how many cells you need');
-	numOfCells = answer;
+	populateCells(+answer);
 });
